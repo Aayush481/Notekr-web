@@ -1,0 +1,16 @@
+/* Background hover effect */
+.bg1 {
+    background-image: url('./signUp-bg.svg');
+    box-shadow: 0px 2px 22px rgb(202 202 202 / 25%);
+    background-repeat: no-repeat;
+    background-position: top left;
+    color: black;
+    transition: background-image 0.5s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.bg1:hover {
+    background-image: url('./signUp-hover-bg.svg');
+    transform: scale(1.02); /* Slight zoom effect */
+}
+
+/* Rotating and floating effects */

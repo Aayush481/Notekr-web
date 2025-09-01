@@ -1,0 +1,52 @@
+.gridCon {
+    position: relative;
+    animation: floatUp 20s ease-in-out infinite forwards;
+}
+
+@keyframes floatUp {
+  0% {
+    transform: translateY(60%);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
+}
+
+
+@keyframes floatRight {
+  0% {
+    transform: translateY(0) scale(1) rotate(-6deg);
+    opacity: 0.8;
+  }
+  50% {
+    transform: translateY(-30px) scale(1.08) rotate(6deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0) scale(1) rotate(-6deg);
+    opacity: 0.8;
+  }
+}
+
+@keyframes floatLeft {
+  0% {
+    transform: translateY(0) scale(1) rotate(6deg);
+    opacity: 0.8;
+  }
+  50% {
+    transform: translateY(-30px) scale(1.08) rotate(-6deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0) scale(1) rotate(6deg);
+    opacity: 0.8;
+  }
+}
+
+.animate1 {
+  animation: floatRight 3s ease-in-out infinite;
+}
+
+.animate2 {
+  animation: floatLeft 3s ease-in-out infinite;
+}

@@ -1,0 +1,77 @@
+.main{
+    background-color:  #02072b;
+   
+}
+
+.stepCon {
+    animation: 20s infinite linear companiesAnimation;
+  }
+  
+  @keyframes companiesAnimation {
+    0% {
+      left:70%;
+    }
+  
+    100% {
+      left : -50%;
+    }
+  }
+  
+
+  @media (max-width:680px) {
+    .stepCon {
+    animation: 20s infinite linear companiesAnimation;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    gap:3rem;
+  }
+  
+  @keyframes companiesAnimation {
+    0% {
+      top:70%;
+    }
+  
+    100% {
+      top : -50%;
+    }
+  }
+
+    
+  }
+
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:70vh;
+  /* background-image: url("./heroBackground.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center; */
+  overflow: hidden;
+}
+.model1 {
+    position: relative;
+    animation: motion 9s linear infinite alternate;
+   
+}
+
+@keyframes motion {
+    0% {
+        transform: translateX(1rem);
+       
+       
+    }
+   
+   
+   
+    100% {
+        transform: translateX(-5rem);
+        opacity: 1;
+        
+        
+    }
+}

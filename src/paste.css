@@ -1,0 +1,13 @@
+.paste {
+  padding: 1rem; /* Padding for all child elements */
+  border: 2px solid #2b84ea; /* Parent border */
+}
+.pTag{
+     word-wrap: break-word; /* Break long words */
+  overflow-wrap: break-word; /* Ensure compatibility */
+}
+.allPastes {
+  border-bottom: 2px solid #2b84ea; /* Add the bottom border */
+ 
+  padding: 1rem; /* Add padding inside the <h1> */
+}
